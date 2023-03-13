@@ -20,7 +20,7 @@ class Distence
     feet=feet!+(inch!/12);
     inch=inch!%12;
 
-    print("${feet?.toInt()} ${inch?.toInt()}");
+    print("Feet Is : ${feet?.toInt()} Inch Is : ${inch?.toInt()}");
   }
 }
 void main()
